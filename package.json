@@ -1,0 +1,42 @@
+{
+  "name": "next-firebase-app",
+  "version": "0.1.0",
+  "description": "## Stack",
+  "main": "firebase.js",
+  "scripts": {
+    "start": "next start",
+    "dev": "next",
+    "build": "next build",
+    "export": "next export",
+    "prestart": "npm run build",
+    "preexport": "npm run build"
+  },
+  "repository": "70-10/next-firebase-app",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/70-10/next-firebase-app/issues"
+  },
+  "homepage": "https://github.com/70-10/next-firebase-app#readme",
+  "dependencies": {
+    "bulma": "^0.7.1",
+    "bulma-pageloader": "^2.1.0",
+    "classnames": "^2.2.6",
+    "firebase": "^5.2.0",
+    "next": "^6.1.1",
+    "next-redux-saga": "^3.0.0-beta.1",
+    "next-redux-wrapper": "^2.0.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^0.16.0"
+  },
+  "devDependencies": {
+    "@zeit/next-sass": "^0.2.0",
+    "next-progressbar": "^1.0.0",
+    "node-sass": "^4.9.2"
+  }
+}
