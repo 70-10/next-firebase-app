@@ -1,5 +1,5 @@
 import firebase from "firebase";
-import { takeEvery, call, put, fork } from "redux-saga/effects";
+import { takeEvery, call, put } from "redux-saga/effects";
 import { Type, Creator } from "../actions";
 
 const { Auth } = Type;
