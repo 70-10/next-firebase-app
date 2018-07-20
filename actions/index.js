@@ -4,12 +4,12 @@ export const Type = {
   Menu: {
     Toggle: "@next-static/menu/toggle",
     Open: "@next-static/menu/open",
-    Close: "@next-static/menu/close"
+    Close: "@next-static/menu/close",
   },
   Router: {
-    Push: "@next-static/router/push"
+    Push: "@next-static/router/push",
   },
-  Auth: Auth.Type
+  Auth: Auth.Type,
 };
 
 export const Creator = {
@@ -22,12 +22,12 @@ export const Creator = {
     },
     close() {
       return { type: Type.Menu.Close };
-    }
+    },
   },
   Router: {
     push(path) {
       return { type: Type.Router.Push, path };
-    }
+    },
   },
-  Auth: Auth.Creator
+  Auth: Auth.Creator,
 };

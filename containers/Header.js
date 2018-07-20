@@ -7,23 +7,23 @@ import ClassNames from "classnames";
 import Link from "./Link";
 
 const mapStateToProps = state => ({
-  menu_opened: state.menu.opened
+  menu_opened: state.menu.opened,
 });
 
 const mapDispatchToProps = dispatch => ({
-  toggleMenu: () => dispatch(Creator.Menu.toggle())
+  toggleMenu: () => dispatch(Creator.Menu.toggle()),
 });
 
 const Header = ({ menu_opened, toggleMenu }) => {
   const burger = ClassNames({
     "navbar-burger": true,
     burger: true,
-    "is-active": menu_opened
+    "is-active": menu_opened,
   });
 
   const navbarMenu = ClassNames({
     "navbar-menu": true,
-    "is-active": menu_opened
+    "is-active": menu_opened,
   });
 
   return (

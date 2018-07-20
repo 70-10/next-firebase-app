@@ -3,7 +3,7 @@ const initialState = {
   uid: "",
   displayName: "",
   email: "",
-  loading: true
+  loading: true,
 };
 
 const auth = (state = initialState, action) => {
@@ -14,7 +14,7 @@ const auth = (state = initialState, action) => {
         uid: action.user.uid,
         displayName: action.user.displayName,
         email: action.user.email,
-        loading: false
+        loading: false,
       };
     case Auth.NotAuthed: {
       return { uid: "", displayName: "", email: "", loading: false };

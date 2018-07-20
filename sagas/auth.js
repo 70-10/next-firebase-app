@@ -27,8 +27,4 @@ function* checkAuth() {
   yield put(Creator.Auth.authed(user));
 }
 
-export default [
-  takeEvery(Auth.Signin, signin),
-  takeEvery(Auth.Signout, signout),
-  takeEvery(Auth.CheckAuth, checkAuth)
-];
+export default [takeEvery(Auth.Signin, signin), takeEvery(Auth.Signout, signout), takeEvery(Auth.CheckAuth, checkAuth)];

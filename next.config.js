@@ -5,7 +5,7 @@ module.exports = withProgressBar(
   withSass({
     exportPathMap: defaultPathMap => ({
       "/": { page: "/" },
-      "/about": { page: "/about" }
-    })
+      "/about": { page: "/about" },
+    }),
   })
 );

@@ -6,9 +6,7 @@ const config = {
   databaseURL: "",
   projectId: "",
   storageBucket: "",
-  messagingSenderId: ""
+  messagingSenderId: "",
 };
 
-export default (!firebase.apps.length
-  ? firebase.initializeApp(config)
-  : firebase.app());
+export default (!firebase.apps.length ? firebase.initializeApp(config) : firebase.app());
