@@ -20,23 +20,23 @@
   },
   "homepage": "https://github.com/70-10/next-firebase-app#readme",
   "dependencies": {
-    "bulma": "^0.7.1",
+    "bulma": "^0.7.2",
     "bulma-pageloader": "^2.1.0",
     "classnames": "^2.2.6",
-    "firebase": "^5.5.1",
-    "next": "^7.0.0",
+    "firebase": "^5.5.9",
+    "next": "^7.0.2",
     "next-redux-saga": "^3.0.0-beta.1",
     "next-redux-wrapper": "^2.0.0",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-redux": "^5.0.7",
-    "redux": "^4.0.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-redux": "^5.1.1",
+    "redux": "^4.0.1",
     "redux-logger": "^3.0.6",
-    "redux-saga": "^0.16.0"
+    "redux-saga": "^0.16.2"
   },
   "devDependencies": {
     "@zeit/next-sass": "^1.0.1",
-    "node-sass": "^4.9.3",
-    "prettier": "^1.14.3"
+    "node-sass": "^4.10.0",
+    "prettier": "^1.15.2"
   }
 }
